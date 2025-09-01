@@ -1,0 +1,53 @@
+.SecThree{
+    width: 100%;
+    background-color: var(--main-color);
+    color: var(--light-color);
+    font-family: var(--second-font);
+    min-height: 90vh;
+    position: relative;
+}
+.SecThree .mx-5 {
+    position: relative;
+}
+
+.SecThree .mx-5:hover .arrowLeft ,
+.SecThree .mx-5:hover .arrowRight {
+    opacity: 1;
+}
+.arrowLeft ,
+.arrowRight {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    cursor: pointer;
+    transition: .5s;
+    opacity: 0;
+}
+.arrowLeft {
+    left: -30px;
+}
+.arrowRight {
+    right: -30px;
+}
+
+@media (max-width : 450px) {
+    .SecThree {
+        min-height: 70vh;
+        margin-top: -5px;
+        padding: 10px;
+    }
+    .SecThree .mx-5 {
+        margin: 10px !important;
+        padding: 20px;
+    }
+    .arrowLeft {
+        left: -10px;
+    }
+    .arrowRight {
+        right: -10px;
+    }
+    .card-img {
+        width: 250px !important;
+        margin: 0 auto;
+    }
+}

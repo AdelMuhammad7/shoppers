@@ -1,0 +1,51 @@
+.SecThree .container .d-flex .w-50 p{
+    font-size: 12px;
+}
+.SecFive {
+    height: max-content;
+}
+
+.SecFive .container .my-4 {
+    position: relative;
+}
+
+.SecFive .my-4:hover .left ,
+.SecFive .my-4:hover .right {
+    opacity: 1;
+}
+.SecFive .container .left ,
+.SecFive .container .right {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    cursor: pointer;
+    transition: .5s;
+    opacity: 0;
+}
+.SecFive .container .left {
+    left: -30px;
+}
+.SecFive .container .right {
+    right: -20px;
+}
+
+@media (max-width : 450px) {
+    .SecFive .container > div:nth-of-type(1) {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+       
+    }
+    .SecFive .container > div:nth-of-type(1) > div:nth-of-type(1) {
+        width: 100% !important;
+    }
+    .SecFive .container .left {
+        left: -10px;
+        z-index: 2;
+    }
+    .SecFive .container .right {
+        right: -5px;
+        z-index: 2;
+    }
+}

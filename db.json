@@ -1,0 +1,733 @@
+{
+  "Blazer": [
+    { 
+      "id": 1,
+      "title": "Silk & Cashmere Crossover Jacket",
+      "description" : "In the context of sports, 'blazers' can refer to certain sports teams' names, especially in basketball and ice hockey. For...",
+      "brand": "Zara" ,
+      "price": "30" , 
+      "discount" : false,
+      "count" : 10 ,
+      "available" : true , 
+      "size" : [
+        {
+          "size" : "XL" ,
+          "image" : "./src/assets/images/Blazer/one/3f5847bf-6d02-4f17-ae0d-9fc1f3405c7e-removebg-preview_440x466.webp" 
+        },
+        {
+          "size" : "XXL" ,
+          "image" : "./src/assets/images/Blazer/one/3f5847bf-6d02-4f17-ae0d-9fc1f3405c7e-removebg-preview_440x466.webp" ,
+          "count" : 0 ,
+          "available" : false
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Blazer/one/3f5847bf-6d02-4f17-ae0d-9fc1f3405c7e-removebg-preview_440x466.webp",
+          "./src/assets/images/Blazer/one/bab629e3-feda-4ced-9ab1-cd659047f6d1-removebg-preview_199x181.avif",
+          "./src/assets/images/Blazer/one/eb83e9d1-7944-4f92-904f-70d2accfb96c-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 2,
+      "title": "Wool & Linen Easy Jacket",
+      "description" : "In the context of sports, 'blazers' can refer to certain sports teams' names, especially in basketball and ice hockey. For...",
+      "brand": "Levi's" ,
+      "price": "15" , 
+      "count" : 10 ,
+      "available" : true , 
+      "discount" : false,
+      "size" : [
+        {
+          "size" : "X" ,
+          "image" : "./src/assets/images/Blazer/two/7e77adf2-d267-4315-866d-adbb77878017-removebg-preview_440x466.webp" ,
+          "count" : 10 ,
+          "available" : true
+        }
+      ],
+      "newItem" : false,
+      "images" : [
+          "./src/assets/images/Blazer/two/7e77adf2-d267-4315-866d-adbb77878017-removebg-preview_440x466.webp",
+          "./src/assets/images/Blazer/two/b01480e2-a4e0-4277-aabd-5b04fc95687d-removebg-preview_440x466.webp",
+          "./src/assets/images/Blazer/two/dbc59c75-953f-482b-a30b-6b9a116cc1ac-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 3,
+      "title": "Wool Blend Sport Coat",
+      "description" : "In the context of sports, 'blazers' can refer to certain sports teams' names, especially in basketball and ice hockey. For...",
+      "brand": "Levi's" ,
+      "price": "25" , 
+      "count" : 0 ,
+      "available" : false ,
+      "discount" : false,
+      "size" : [
+        {
+          "size" : "s" ,
+          "image" : "./src/assets/images/Blazer/three/5f6430fb-5881-4da6-b642-e8f28758d123-removebg-preview_440x466.webp" ,
+          "count" : 10 ,
+          "available" : true
+        } , 
+        {
+          "size" : "s" ,
+          "image" : "./src/assets/images/Blazer/three/6762d760-a88f-44d3-8c1e-aa157703703f-removebg-preview_440x466.webp" ,
+          "count" : 10 ,
+          "available" : true
+        }
+      ],
+      "newItem" : false,
+      "images" : [
+          "./src/assets/images/Blazer/three/5f6430fb-5881-4da6-b642-e8f28758d123-removebg-preview_440x466.webp",
+          "./src/assets/images/Blazer/three/6762d760-a88f-44d3-8c1e-aa157703703f-removebg-preview_440x466.webp",
+          "./src/assets/images/Blazer/three/b550ac78-c304-4e82-ae71-0b819d1bc8c8-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 4,
+      "title": "Grain Poured Wool Jacket",
+      "description" : "In the context of sports, 'blazers' can refer to certain sports teams' names, especially in basketball and ice hockey. For...",
+      "brand": "Levi's" ,
+      "price": "30" , 
+      "discount" : false,
+      "count" : 10 ,
+      "available" : true , 
+      "size" : [
+        {
+          "size" : "XL" ,
+          "image" : "./src/assets/images/Blazer/four/016a1d1b-2b7f-4f2b-b868-27276283b37d-removebg-preview_440x466.webp" ,
+          "count" : 10 ,
+          "available" : true
+        },
+        {
+          "size" : "XXL" ,
+          "image" : "./src/assets/images/Blazer/four/04aa95e3-f68f-4632-ba61-ae0301e3a554-removebg-preview_440x466.webp" ,
+          "count" : 0 ,
+          "available" : false
+        }
+      ],
+      "newItem" : true,
+      "images" : [
+          "./src/assets/images/Blazer/four/016a1d1b-2b7f-4f2b-b868-27276283b37d-removebg-preview_440x466.webp",
+          "./src/assets/images/Blazer/four/04aa95e3-f68f-4632-ba61-ae0301e3a554-removebg-preview_440x466.webp",
+          "./src/assets/images/Blazer/four/12548f3b-5d56-41d6-9a37-9242e4970e88-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 5,
+      "title": "Dye Wool Blend Jacket",
+      "description" : "In the context of sports, 'blazers' can refer to certain sports teams' names, especially in basketball and ice hockey. For...",
+      "brand": "Levi's" ,
+      "price": "40" ,
+      "discount" : "38",
+      "count" : 10 ,
+      "available" : true , 
+      "size" : [
+        {
+          "size" : "XL" ,
+          "image" : "./src/assets/images/Blazer/five/170711bc-2bd2-4304-8712-840782e9dcf2-removebg-preview_440x466.webp" ,
+          "count" : 10 ,
+          "available" : true
+        },
+        {
+          "size" : "XXL" ,
+          "image" : "./src/assets/images/Blazer/five/aed979fa-f64f-46e0-ba3d-20c7c836a292-removebg-preview_440x466.webp" ,
+          "count" : 20 ,
+          "available" : true
+        }
+      ],
+      "newItem" : true,
+      "images" : [
+          "./src/assets/images/Blazer/five/170711bc-2bd2-4304-8712-840782e9dcf2-removebg-preview_440x466.webp",
+          "./src/assets/images/Blazer/five/aed979fa-f64f-46e0-ba3d-20c7c836a292-removebg-preview_440x466.webp",
+          "./src/assets/images/Blazer/five/b51853bf-53c7-430b-b3c4-46f04537bdad-removebg-preview_440x466.webp"
+      ]
+    }
+  ],
+  "CasualWear": [
+    { 
+      "id": 6,
+      "title": "Regular Fit Quilted Jacket",
+      "description" : "Casual wear is less dressy than formal or business attire. While it still looks put-together and presentable, it doesn't adhere...",
+      "brand": "Burberry" ,
+      "price": "100" , 
+      "discount" : "15",
+      "count" : 10 ,
+      "available" : false ,
+      "colors" : ["green" , "brown"] ,
+      "color" : [
+        {
+          "color" : "green" ,
+          "image" : "./src/assets/images/CasualWear/1/01056fca-6e78-48c6-a0b1-aa855c84a186-removebg-preview_440x466.webp" 
+        },
+        {
+          "color" : "brown" ,
+          "image" : "./src/assets/images/CasualWear/1/42641357-3b92-4759-a7a7-a9b3d1d387eb-removebg-preview_440x466.webp" 
+        }
+      ],
+      "newItem" : true , 
+      "images" : [
+          "./src/assets/images/CasualWear/1/01056fca-6e78-48c6-a0b1-aa855c84a186-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/1/42641357-3b92-4759-a7a7-a9b3d1d387eb-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/1/a04f39be-cbf7-4371-a448-c9132ffbed67-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/1/f1ba0f57-a086-4957-b691-3c4d0fdc57e2-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 7,
+      "title": "Neck Cashmere Sweater",
+      "description" : "Casual wear is less dressy than formal or business attire. While it still looks put-together and presentable, it doesn't adhere...",
+      "brand": "Levi's" ,
+      "price": "80" , 
+      "discount" : "34",
+      "count" : 10 ,
+      "available" : true , 
+      "color" : [
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/CasualWear/2/3187ed5e-55e0-4583-85ff-f6de6389ebc3-removebg-preview_440x466.webp" 
+        },
+        {
+          "color" : "green" ,
+          "image" : "./src/assets/images/CasualWear/2/5c71b093-4cb1-4a28-b681-1e51eb64e29c-removebg-preview_440x466.webp" 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/CasualWear/2/3187ed5e-55e0-4583-85ff-f6de6389ebc3-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/2/5c71b093-4cb1-4a28-b681-1e51eb64e29c-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/2/5c71b093-4cb1-4a28-b681-1e51eb64e29c-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/2/73df4dc5-cbb0-42c3-9024-7ce904941560-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/2/a667c129-8653-463b-95ea-8521b5ef72e5-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 8,
+      "title": "Merino Crew neck Sweater",
+      "description" : "Casual wear is less dressy than formal or business attire. While it still looks put-together and presentable, it doesn't adhere...",
+      "brand": "Gucci" ,
+      "price": "32" , 
+      "discount" : false,
+      "count" : 10 ,
+      "available" : true , 
+      "color" : [
+        {
+          "color" : "marron" ,
+          "image" : "./src/assets/images/CasualWear/3/40b33cd6-4586-4e1f-912b-d092bbc677e4-removebg-preview_440x466.webp" 
+        },
+        {
+          "color" : "cream" ,
+          "image" : "./src/assets/images/CasualWear/3/b6697f27-9d61-4fcf-94e8-57f84c52490f-removebg-preview_440x466.webp" 
+        },
+        {
+          "color" : "brown" ,
+          "image" : "./src/assets/images/CasualWear/3/c2a39ade-a3d2-4b89-bc75-fb386ee7c618-removebg-preview_440x466.webp" 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/CasualWear/3/40b33cd6-4586-4e1f-912b-d092bbc677e4-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/3/b6697f27-9d61-4fcf-94e8-57f84c52490f-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/3/c2a39ade-a3d2-4b89-bc75-fb386ee7c618-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/3/f9528d20-3a46-4a93-8a1a-1ca7502a675b-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 9,
+      "title": "Merino Crew neck Sweater",
+      "description" : "Casual wear is less dressy than formal or business attire. While it still looks put-together and presentable, it doesn't adhere...",
+      "brand": "Gucci" ,
+      "price": "23" , 
+      "discount" : false,
+      "count" : 0 ,
+      "available" : false , 
+      "color" : [
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/CasualWear/4/052f983f-33df-4e9e-8609-8b31041d05bc-removebg-preview_440x466.webp" 
+        },
+        {
+          "color" : "brown" ,
+          "image" : "./src/assets/images/CasualWear/4/6a41a1fa-b00d-485c-9afa-3bc5afd74016-removebg-preview_440x466.webp"
+        },
+        {
+          "color" : "skyblue" ,
+          "image" : "./src/assets/images/CasualWear/4/7a2cbff1-bdc7-4e5e-931e-5d114c960863-removebg-preview_440x466.webp" 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/CasualWear/4/052f983f-33df-4e9e-8609-8b31041d05bc-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/4/6a41a1fa-b00d-485c-9afa-3bc5afd74016-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/4/7a2cbff1-bdc7-4e5e-931e-5d114c960863-removebg-preview_440x466.webp",
+          "./src/assets/images/CasualWear/4/87e36757-4545-4b8a-8bd5-dced56ae330c-removebg-preview_440x466.webp"
+      ]
+    }
+  ],
+  "Shirt" : [
+    { 
+      "id": 10,
+      "title": "Trim Fit Non-Iron Dress Shirt",
+      "description" : "Shirts usually have an opening at the front, secured with buttons or snaps, and may have a collar and cuffs....",
+      "brand": "Burberry" ,
+      "price": "32" , 
+      "discount" : false,
+      "count" : 10 ,
+      "available" : true ,
+      "color" : [
+        {
+          "color" : "red" ,
+          "image" : "./src/assets/images/Shirt/1/057e7bc9-f3f6-4e39-9956-cb38f35cebb6-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/Shirt/1/22216d5e-3a7b-440c-8548-a2aeca604e0f-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "gray" ,
+          "image" : "./src/assets/images/Shirt/1/48438232-b33a-4c62-8754-047cf88a46fd-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Shirt/1/057e7bc9-f3f6-4e39-9956-cb38f35cebb6-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/1/22216d5e-3a7b-440c-8548-a2aeca604e0f-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/1/48438232-b33a-4c62-8754-047cf88a46fd-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/1/96d547b7-d0b7-4bd7-8bfd-299c3f210f81-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 11,
+      "title": "Solid Dress Shirt",
+      "description" : "Shirts usually have an opening at the front, secured with buttons or snaps, and may have a collar and cuffs....",
+      "brand": "Burberry" ,
+      "price": "25" , 
+      "discount" : false,
+      "count" : 0 ,
+      "available" : false ,
+      "color" : [
+        {
+          "color" : "pink" ,
+          "image" : "./src/assets/images/Shirt/2/4030f83e-9797-483d-ba30-92b4a5a5be4a-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/Shirt/2/85d1b891-ce7c-4aaa-a2cc-7b22f857c72e-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Shirt/2/4030f83e-9797-483d-ba30-92b4a5a5be4a-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/2/85d1b891-ce7c-4aaa-a2cc-7b22f857c72e-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/2/99f8c293-d221-4464-8613-f909a4b3a90f-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/2/c1b0ffa7-c4cd-4e7f-8219-99c3512aa7a6-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 12,
+      "title": "Fit Stretch Dress",
+      "description" : "Shirts usually have an opening at the front, secured with buttons or snaps, and may have a collar and cuffs....",
+      "brand": "Burberry" ,
+      "price": "35" , 
+      "discount" : "29",
+      "count" : 10 ,
+      "available" : true ,
+      "color" : [
+        {
+          "color" : "grey" ,
+          "image" : "./src/assets/images/Shirt/3/25b4ff66-7f64-4f9d-a37c-e570fdd5fea5-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "white" ,
+          "image" : "./src/assets/images/Shirt/3/4d4d6f7d-6a92-404b-9fa9-c49de971e8b5-removebg-preview_440x466.webp" ,
+          "count" : 0 
+        },
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/Shirt/3/4d8afccd-94e5-43e4-ad87-526575ded3b6-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : true , 
+      "images" : [
+          "./src/assets/images/Shirt/3/25b4ff66-7f64-4f9d-a37c-e570fdd5fea5-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/3/4d4d6f7d-6a92-404b-9fa9-c49de971e8b5-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/3/4d8afccd-94e5-43e4-ad87-526575ded3b6-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/3/67069ff6-e4dd-4057-ac1c-9ed2b42c1b30-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 13,
+      "title": "Fit Flannel Button-Down Shirt",
+      "description" : "Shirts usually have an opening at the front, secured with buttons or snaps, and may have a collar and cuffs....",
+      "brand": "Gucci" ,
+      "price": "45" , 
+      "discount" : "56",
+      "count" : 10 ,
+      "available" : true ,
+      "color" : [
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/Shirt/4/6bf8dd88-4ae7-4239-b179-b700b5b75f76-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "black" ,
+          "image" : "./src/assets/images/Shirt/4/7576a842-67ae-40a8-a877-194378d349ee-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Shirt/4/6bf8dd88-4ae7-4239-b179-b700b5b75f76-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/4/7576a842-67ae-40a8-a877-194378d349ee-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/4/9e45cb5c-320e-4136-8cd9-f4e1636be2c8-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/4/9ee3fd46-1865-4701-b614-c2381867857c-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 14,
+      "title": "Check Stretch Button-Down Shirt",
+      "description" : "Shirts usually have an opening at the front, secured with buttons or snaps, and may have a collar and cuffs....",
+      "brand": "Gucci" ,
+      "price": "15" , 
+      "discount" : false,
+      "count" : 0 ,
+      "available" : false ,
+      "color" : [
+        {
+          "color" : "black" ,
+          "image" : "./src/assets/images/Shirt/5/17985d69-1850-446c-a0f7-9c904eb35b48-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "white" ,
+          "image" : "./src/assets/images/Shirt/5/1f03cda6-baf5-49cb-b8ff-61f9de96b68a-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/Shirt/5/4d7aa11c-fc9f-42bf-ad5e-cca2862ca060-removebg-preview_440x466.webp" ,
+          "count" : 0 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Shirt/5/17985d69-1850-446c-a0f7-9c904eb35b48-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/5/1f03cda6-baf5-49cb-b8ff-61f9de96b68a-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/5/4d7aa11c-fc9f-42bf-ad5e-cca2862ca060-removebg-preview_440x466.webp",
+          "./src/assets/images/Shirt/5/76144ae7-a7b7-4897-833e-aa3b3563ee62-removebg-preview_440x466.webp"
+      ]
+    }
+  ],
+  "Suit" : [
+    { 
+      "id": 15,
+      "title": "Virgin Wool Suit",
+      "description" : "The primary purpose of a shirt is to provide coverage, protection, and comfort. It is often worn as an outer...",
+      "brand": "Levi's" ,
+      "price": "45" , 
+      "discount" : "22",
+      "count" : 10 ,
+      "available" : true ,
+      "color" : [
+        {
+          "color" : "black" ,
+          "image" : "./src/assets/images/Suit/1/07c0dcfc-2b19-470e-aade-d7fb84f1a9d7-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Suit/1/07c0dcfc-2b19-470e-aade-d7fb84f1a9d7-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/1/0f82b89c-ec0f-49b4-93b9-d499f514e78e-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/1/9e20a90b-0def-483e-b74a-984a977cd365-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/1/9f76d581-bdbc-4887-a0a9-5deb80b9a58c-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 16,
+      "title": "Jersey Sport Coat",
+      "description" : "The primary purpose of a shirt is to provide coverage, protection, and comfort. It is often worn as an outer...",
+      "brand": "Reymond" ,
+      "price": "50" , 
+      "discount" : false,
+      "count" : 0 ,
+      "available" : false ,
+      "color" : [
+        {
+          "color" : "grey" ,
+          "image" : "./src/assets/images/Suit/2/956528c6-9cfd-4454-87bd-287fb5cb3ad2-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "black" ,
+          "image" : "./src/assets/images/Suit/2/61a71edf-c221-4d21-aa83-a0ecff920df5-removebg-preview_440x466.webp" ,
+          "count" : 0 
+        }
+      ],
+      "newItem" : true , 
+      "images" : [
+          "./src/assets/images/Suit/2/3820a14b-3618-4cb3-8272-01ab573538e4-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/2/4434ee08-c938-497b-9587-20de24a4d7b0-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/2/61a71edf-c221-4d21-aa83-a0ecff920df5-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/2/956528c6-9cfd-4454-87bd-287fb5cb3ad2-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 17,
+      "title": "Wool Blend Sport Coat",
+      "description" : "The primary purpose of a shirt is to provide coverage, protection, and comfort. It is often worn as an outer...",
+      "brand": "Reymond" ,
+      "price": "55" , 
+      "discount" : false,
+      "count" : 10 ,
+      "available" : true ,
+      "color" : [
+        {
+          "color" : "red" ,
+          "image" : "./src/assets/images/Suit/3/e5dee9df-d6bf-43c0-8764-84204596ac38-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/Suit/3/9ee8da26-aff2-4b59-bcb2-da11bf531fa5-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "black" ,
+          "image" : "./src/assets/images/Suit/3/7bc017da-6f91-46e1-8737-91660e23afd7-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : true , 
+      "images" : [
+          "./src/assets/images/Suit/3/3b4fe7c1-39b2-42c8-944e-3d70b1247bf1-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/3/5ead7e13-862a-4a8d-be8e-cb9d137d840c-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/3/7bc017da-6f91-46e1-8737-91660e23afd7-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/3/9ee8da26-aff2-4b59-bcb2-da11bf531fa5-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 18,
+      "title": "Trim Fit Solid Wool Suit",
+      "description" : "The primary purpose of a shirt is to provide coverage, protection, and comfort. It is often worn as an outer...",
+      "brand": "Reymond" ,
+      "price": "60" , 
+      "discount" : false,
+      "count" : 10 ,
+      "available" : true ,
+      "color" : [
+        {
+          "color" : "black" ,
+          "image" : "./src/assets/images/Suit/4/3c8eaecc-c59a-4cd5-916a-31631c75adc3-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/Suit/4/624bf200-3653-419d-b691-d00817cffeeb-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Suit/4/3c8eaecc-c59a-4cd5-916a-31631c75adc3-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/4/624bf200-3653-419d-b691-d00817cffeeb-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/4/bb4a5847-8929-41e7-aed9-dc90e0ecb863-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/4/dbbd22a0-c991-4652-bdfd-22495a1a5c4a-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 19,
+      "title": "Fit Solid Wool Suit",
+      "description" : "The primary purpose of a shirt is to provide coverage, protection, and comfort. It is often worn as an outer...",
+      "brand": "Zara" ,
+      "price": "20" , 
+      "discount" : false,
+      "count" : 10 ,
+      "available" : true ,
+      "color" : [
+        {
+          "color" : "black" ,
+          "image" : "./src/assets/images/Suit/5/6291ef51-dacd-4f03-9641-7fa07b43a3ef-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "grey" ,
+          "image" : "./src/assets/images/Suit/5/689ba688-0e53-410e-9836-7165b82ca396-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Suit/5/6291ef51-dacd-4f03-9641-7fa07b43a3ef-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/5/689ba688-0e53-410e-9836-7165b82ca396-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/5/91c47e05-5c29-4f61-9203-482e63d02522-removebg-preview_440x466.webp",
+          "./src/assets/images/Suit/5/a7433cd5-23df-4917-98e5-e5a5182f6b11-removebg-preview_440x466.webp"
+      ]
+    }
+  ],
+  "Trouser" : [
+    { 
+      "id": 20,
+      "title": "Tech Smart Wool Blend Trousers",
+      "description" : "Trousers typically have a waistband that sits around the waist, securing the pants in place. This can be elastic, buttoned,...",
+      "brand": "Zara" ,
+      "price": "52" , 
+      "discount" : false,
+      "count" : 10 ,
+      "available" : true ,
+      "color" : [
+        {
+          "color" : "green" ,
+          "image" : "./src/assets/images/Trousers/1/0b4d1be4-c937-4d3b-8f8a-63b82af396c3-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "marron" ,
+          "image" : "./src/assets/images/Trousers/1/31485124-f2f7-4391-89ab-4cbc8e750cb8-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/Trousers/1/7a9aa69f-1e22-4c11-b225-c933ecb81a69-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Trousers/1/0b4d1be4-c937-4d3b-8f8a-63b82af396c3-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/1/31485124-f2f7-4391-89ab-4cbc8e750cb8-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/1/7a9aa69f-1e22-4c11-b225-c933ecb81a69-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/1/9b097150-234b-42b9-ab3b-0b836a78d59d-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 21,
+      "title": "Solid Extra Trim Wool Blend Trousers",
+      "description" : "Trousers typically have a waistband that sits around the waist, securing the pants in place. This can be elastic, buttoned,...",
+      "brand": "Reymond" ,
+      "price": "52" , 
+      "discount" : false,
+      "count" : 10 ,
+      "available" : true ,
+      "color" : [
+        {
+          "color" : "grey" ,
+          "image" : "./src/assets/images/Trousers/2/63474588-ff01-4e1a-8b9e-dcf8ea50dac4-removebg-preview_440x466.webp" ,
+          "count" : 0 
+        },
+        {
+          "color" : "black" ,
+          "image" : "./src/assets/images/Trousers/2/9d68c415-7cc6-4852-b087-888c4f460ac2-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Trousers/2/63474588-ff01-4e1a-8b9e-dcf8ea50dac4-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/2/9d68c415-7cc6-4852-b087-888c4f460ac2-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/2/db095111-1988-462b-9c41-9d25cde68cb3-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/2/eb100777-dd72-4922-83e3-cc2750275c1e-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 22,
+      "title": "Smart Trim Fit Trousers",
+      "description" : "Trousers typically have a waistband that sits around the waist, securing the pants in place. This can be elastic, buttoned,...",
+      "brand": "Prada" ,
+      "price": "50" , 
+      "discount" : "44",
+      "count" : 10 ,
+      "available" : false ,
+      "color" : [
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/Trousers/3/09cd01cd-9773-4079-aff1-dcf7b21aabff-removebg-preview_440x466.webp" ,
+          "count" : 0 
+        },
+        {
+          "color" : "black" ,
+          "image" : "./src/assets/images/Trousers/3/2f89d246-f660-4021-93ef-95f5c8c616e2-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Trousers/3/09cd01cd-9773-4079-aff1-dcf7b21aabff-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/3/2f89d246-f660-4021-93ef-95f5c8c616e2-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/3/b8f313d5-0a1a-41d1-91d4-4db64bc26e26-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/3/f233b106-22ef-4a9d-9ce0-a79f306cb17e-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 23,
+      "title": "Slim Fit Stretch Trousers",
+      "description" : "Trousers typically have a waistband that sits around the waist, securing the pants in place. This can be elastic, buttoned,...",
+      "brand": "Prada" ,
+      "price": "45" , 
+      "discount" : false,
+      "count" : 10 ,
+      "available" : true ,
+      "color" : [
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/Trousers/4/2e10e933-b8bc-405e-b861-c9ca796d4562-removebg-preview_440x466.webp" ,
+          "count" : 0 
+        },
+        {
+          "color" : "black" ,
+          "image" : "./src/assets/images/Trousers/4/2f5e9d42-6c37-481f-a8ef-220c3e6f04b2-removebg-preview_440x466.webp" ,
+          "count" : 0 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Trousers/4/2e10e933-b8bc-405e-b861-c9ca796d4562-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/4/2f5e9d42-6c37-481f-a8ef-220c3e6f04b2-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/4/5737c12a-f4e4-4bb6-bb26-6f84922294fe-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/4/6b1370a1-9f01-42c2-956e-7ab5824ee29a-removebg-preview_440x466.webp"
+      ]
+    },
+    { 
+      "id": 24,
+      "title": "Modern True Fit Flat",
+      "description" : "Trousers typically have a waistband that sits around the waist, securing the pants in place. This can be elastic, buttoned,...",
+      "brand": "Prada" ,
+      "price": "45" , 
+      "discount" : false,
+      "count" : 10 ,
+      "available" : false ,
+      "color" : [
+        {
+          "color" : "black" ,
+          "image" : "./src/assets/images/Trousers/5/07b88846-9e27-4619-910a-343854f6a528-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "brown" ,
+          "image" : "./src/assets/images/Trousers/5/2dd04cd4-fd65-44a8-8951-c249eb0ad7c0-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        },
+        {
+          "color" : "blue" ,
+          "image" : "./src/assets/images/Trousers/5/827819a5-fb5e-4176-b28f-5df4dd042849-removebg-preview_440x466.webp" ,
+          "count" : 10 
+        }
+      ],
+      "newItem" : false , 
+      "images" : [
+          "./src/assets/images/Trousers/5/07b88846-9e27-4619-910a-343854f6a528-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/5/2dd04cd4-fd65-44a8-8951-c249eb0ad7c0-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/5/827819a5-fb5e-4176-b28f-5df4dd042849-removebg-preview_440x466.webp",
+          "./src/assets/images/Trousers/5/a3039537-f50b-42ad-b50b-0691ab69a2f6-removebg-preview_440x466.webp"
+      ]
+    }
+  ]
+}
+

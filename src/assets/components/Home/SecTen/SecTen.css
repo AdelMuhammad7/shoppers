@@ -1,0 +1,88 @@
+.SecTen{
+    background-color: var(--main-color);
+    color: var(--light-color);
+    font-family: var(--second-font);
+}
+.SecTen .container .row span {
+    font-size: 12px;
+}
+
+/* items */
+.SecTen .container .row .item {
+    position: relative;
+}
+.SecTen .container .row .item p {
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: transparent;
+    padding: 0 5px;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.SecTen .container .row .item p:hover {
+    background-color: var(--light-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+.SecTen .container .row .card {
+    color: var(--main-color) !important;
+}
+
+.SecTen .container .row .card .card-title {
+    white-space: nowrap;
+}
+.SecTen .container .row .card .card-text {
+    font-size: 12px;
+    height: 70px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.SecTen .container .row:nth-of-type(2) {
+    position: relative;
+}
+
+.SecTen .container .row:nth-of-type(2) .left,
+.SecTen .container .row:nth-of-type(2) .right {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    cursor: pointer;
+    transition: .5s;
+    opacity: 0;
+}
+.SecTen .container .row:nth-of-type(2) .left {
+    left: -30px;
+}
+.SecTen .container .row:nth-of-type(2) .right {
+    left: 100%;
+}
+
+.SecTen .container .row:nth-of-type(2):hover .left , 
+.SecTen .container .row:nth-of-type(2):hover .right {
+    opacity: 1;
+} 
+
+
+@media (max-width : 450px) {
+    .SecTen .container .row .card {
+        margin: 20px;
+    }
+    .SecTen .container .row:nth-of-type(2) .left {
+        left: -5px;
+        z-index: 5;
+    }
+    .SecTen .container .row:nth-of-type(2) .right {
+        left: 90%;
+        z-index: 5;
+    }
+    .SecTen .container .row .item p {
+        top: 10px;
+        left: 25px;
+    }
+}

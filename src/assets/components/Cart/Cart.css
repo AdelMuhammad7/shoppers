@@ -1,0 +1,89 @@
+.Cart{
+    min-height: 100vh;
+    background-color: var(--main-color);
+    color: var(--light-color);
+}
+table {
+    font-family: var(--second-font);
+    width: 100%;
+}
+
+table * {
+    padding: 5px;
+}
+
+
+table thead {
+    text-transform: uppercase;
+    font-size: 12px;
+    /* padding: 5px; */
+    white-space: nowrap;   
+}
+
+
+table tbody tr {
+    border-top: 1px solid rgba(255, 255, 255, 0.39);
+    font-size: 12px;
+    text-transform: capitalize;
+}
+table tbody .img {
+    width: 100px;
+    height: 100px;
+}
+table tbody tr td i {
+    padding: 0 !important;
+    font-size: 20px;
+    cursor: pointer;
+}
+table tbody tr td input {
+    border: none;
+    outline: none;
+    background: var(--main-color);
+    color: var(--light-color);
+    text-align: center;
+    width: 25px;
+}
+table tbody tr td .count {
+    cursor: pointer;
+}
+
+.Cart .row .col-lg-3 textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: var(--light-color);
+    width: 100%;
+    height: 80px;
+}
+.Cart .row .col-lg-3 textarea::placeholder {
+    color: white;
+    font-size: 12px;
+}
+
+.Cart .row .col-lg-3 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+@media (max-width: 450px) {
+
+    table thead {
+        font-size: 10px;
+    }
+    table tbody .img {
+        width: 30px;
+        height: 100px;
+    }
+
+}

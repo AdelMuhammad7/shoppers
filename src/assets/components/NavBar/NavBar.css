@@ -1,0 +1,476 @@
+nav {
+    font-family: var(--second-font);
+    color: var(--dark-color) !important;
+    font-size: 12px;
+}
+nav * {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+nav .top > p {
+    font-weight: 500;
+}
+nav .top ul div select {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+nav .top ul li {
+    transition: .5s;
+    border-bottom: 1px solid transparent;
+}
+nav .top ul li:hover {
+    border-bottom: 1px solid black;
+}
+nav  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+nav .bot > div:nth-of-type(1) b {
+    padding-right: 50px !important;
+    border-right: 1px solid black;
+    color: var(--main-color);
+    cursor: pointer;
+}
+nav .bot > div:nth-of-type(1) ul li .icon {
+    transition: .5s;
+}
+nav .bot > div:nth-of-type(1) ul li a{
+    position: relative;
+}
+
+nav .bot > div:nth-of-type(1) ul li > a::after ,
+nav .bot > div:nth-of-type(1) ul li > a::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 0;
+    height: 1px;
+    transition: .5s;
+    background-color: black;
+    z-index: 110;
+}
+nav .bot > div:nth-of-type(1) ul li a::after {
+    left: 50%;
+}
+nav .bot > div:nth-of-type(1) ul li a::before {
+    right: 50%;
+}
+
+nav .bot > div:nth-of-type(1) ul li a:hover::after ,
+nav .bot > div:nth-of-type(1) ul li a:hover::before{
+    width: 50%;
+}
+
+nav .bot > div:nth-of-type(1) ul li:hover .icon{
+    transform: rotate(180deg);
+}
+nav .bot > div:nth-of-type(2) i {
+    font-size: 16px;
+    color: var(--icon-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+nav .bot > div:nth-of-type(2) i:nth-of-type(3) {
+    border: 1px solid black;
+    padding: 2px 15px !important;
+    border-radius: 30px;
+}
+nav .bot > div:nth-of-type(2) i:nth-of-type(3) span {
+    font-size: 14px;
+    font-style: normal;
+}
+
+nav .bot > div:nth-of-type(1) ul li .dropdown {
+    position: absolute;
+    top: 115px;
+    left: 0;
+    background-color: var(--main-color); 
+    z-index: 10000;   
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    transition: .2s;
+    padding: 20px 80px !important;
+    box-shadow: var(--light-color) 0px 10px 20px -20px;
+    display: none;
+}
+nav .bot > div:nth-of-type(1) ul li:hover .dropdown {
+    display: grid;
+}
+nav .bot > div:nth-of-type(1) ul li .dropdown * {
+    color: var(--light-color);
+}
+nav .bot > div:nth-of-type(1) ul li .dropdown > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+nav .bot > div:nth-of-type(1) ul li .dropdown > div strong {
+    font-size: 18px !important;
+}
+nav .bot > div:nth-of-type(1) ul li .dropdown > div img {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+nav .bot > div:nth-of-type(1) ul li:hover .dropdown a:hover {
+    text-decoration: underline;
+}
+
+
+nav .bot > div:nth-of-type(1) ul li .dropdown2 {
+    position: absolute;
+    background-color: var(--main-color);
+    color: var(--light-color);
+    top: 115px;
+    display: none;
+    box-shadow: var(--light-color) 0px 10px 20px -20px;
+    z-index: 3;
+}
+nav .bot > div:nth-of-type(1) ul li .dropdown2 div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 150px;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 15px !important;
+    z-index: 10000;
+}
+nav .bot > div:nth-of-type(1) ul li:hover .dropdown2 {
+    display: block;
+}
+nav .bot > div:nth-of-type(1) ul li .dropdown2 div span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav .bot .barIcon {
+    display: none;
+}
+
+@media (max-width : 780px) {
+    nav .bot > div:nth-of-type(1) {
+        padding: 10px 0 !important;
+    }
+    nav .bot > div:nth-of-type(1) ul {
+        display: none;
+    }
+    nav .bot > div:nth-of-type(1) b {
+        border-right: none;
+        padding-right: 0px !important;
+    }
+}
+@media (max-width : 540px) {
+    nav .top {
+        display: none !important;
+    }
+    nav .bot > div:nth-of-type(2) {
+        display: none !important;
+    }
+    nav .bot .barIcon {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    nav .bot .barIcon i {
+        cursor: pointer;
+    }
+    .myCart {
+        width: 100% !important;
+    }
+    .myCart .close {
+        left: 5px !important;
+    }
+    .myCart .title b {
+        padding-left: 20px !important;
+    }
+    .myCart .bot .view {
+        display: flex !important;
+        white-space: nowrap !important;
+    }
+    .myCart .body .top {
+        display: flex !important;
+    }
+}
+
+
+.listBar{
+    height: 100vh;
+    width: 90%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    display: none;
+}
+.listBar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 15px !important;
+}
+.listBar ul li a {
+    font-size: 18px;
+}
+.listBar span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    padding: 0 15px !important;
+}
+.listBar span .close {
+    color: var(--light-color);
+    font-size: 30px;
+    cursor: pointer;
+}
+.listBar span select {
+    outline: none;
+    width: 30%;
+    padding: 5px !important;
+}
+.listBar ul li {
+    width: 100%;
+    position: relative;
+}
+
+.listBar .dropdown3 {
+    position: absolute;
+    top: 100%;
+    left: 10px;  
+    display: flex;
+    flex-direction: column; 
+    display: none; 
+}
+.listBar .dropdown3 a {
+    font-size: 14px;
+}
+
+.listBar .dropdown3.dola {
+    display: flex;
+    position: static;
+}
+.listBar .dropdown3.dola a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+.myCarttttt {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000091;
+    display: none;
+}
+
+.myCart {
+    height: 100vh;
+    width: 330px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: white;
+    font-family: var(--first-font);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.myCart .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    color: var(--light-color);
+    padding: 10px 20px !important;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.myCart .body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 350px;
+    overflow-y: scroll;
+    box-shadow: var(--main-color) 0px 10px 15px -15px;
+}
+.myCart .body .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 20px !important;
+}
+.myCart .body .top .steps {
+    width: 200px;
+    background-color: #ddd;
+    height: 5px;
+    position: relative;
+}
+.myCart .body .top .steps span {
+    position: absolute; 
+    width: 0;
+    height: 5px;
+    background-color: var(--main-color);
+    top: 0;
+    left: 0;
+}
+
+.myCart .body .top i {
+    font-size: 20px;
+    animation: truck .8s infinite alternate linear;
+}
+
+@keyframes truck {
+    to {
+        transform: scale(1.4);
+    }
+}
+
+
+.myCart .body .cart {
+    display: flex;
+    gap: 5px;
+    margin: 0 20px !important;
+    padding: 5px !important;
+    border: 1px solid var(--icon-color);
+    border-radius: 10px;
+}
+.myCart .body .cart div:nth-of-type(1) {
+    padding: 5px !important;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myCart .body .cart div:nth-of-type(1) img {
+    border-radius: 5px;
+}
+.myCart .body .cart div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+.myCart .body .cart div:nth-of-type(2) b {
+    font-weight: 500;
+    white-space: nowrap;
+}
+.myCart .body .cart div:nth-of-type(2) p {
+    font-size: 13px;
+    margin: 0 !important;
+    font-weight: 700 !important;
+}
+.myCart .body .cart div:nth-of-type(2) p span {
+    font-weight: 400;
+}
+.myCart .body .cart div:nth-of-type(2) input {
+    outline: none;
+    border: 1px solid #c2c1c1;
+    border-radius: 5px;
+    width: 60%;
+}
+.myCart .body .cart div:nth-of-type(2) .priceItem {
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.myCart .body .cart i {
+    color: rgb(207, 56, 56);
+    font-size: 16px;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    transition: .5s;
+}
+.myCart .body .cart i:hover {
+    color: red;
+}
+
+
+.myCart .bot {
+    display: flex;
+    flex-direction: column;
+}
+.myCart .bot .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px !important;
+}
+.myCart .bot .total p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600 !important;
+}
+.myCart .bot .total p span {
+    font-weight: 400 !important;
+}
+
+.myCart .bot .view {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+.myCart .bot .view p:nth-of-type(1) {
+    background-color: var(--main-color);
+    width: 50%;
+    padding: 10px 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white ;
+    margin: 0;
+}
+.myCart .bot .view p:nth-of-type(2) {
+    background-color: var(--dark-color);
+    width: 50%;
+    padding: 10px 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white ;
+    margin: 0;
+}
+
+.myCart .close {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--light-color);
+}

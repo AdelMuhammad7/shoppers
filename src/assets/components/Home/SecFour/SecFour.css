@@ -1,0 +1,48 @@
+.SecFour{
+    height: 80vh;
+    /* margin-top: -100px; */
+    background-image: url(../../../images/bg2.png);
+    background-position: 50% 50%;
+    /* padding: 300px 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.SecFour p:nth-of-type(4) {
+    width: 75%;
+}
+.SecFour div i ,
+.SecFour div span {
+    cursor: pointer;
+}
+.SecFour div i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 450px) {
+    .SecFour {
+        padding: 10px;
+        height: 70vh;
+    }
+}
+@media (max-width: 750px) {
+    .SecFour {
+        padding: 10px;
+    }
+}
+@media (max-width: 980px) {
+    .SecFour {
+        padding: 10px;
+    }
+}

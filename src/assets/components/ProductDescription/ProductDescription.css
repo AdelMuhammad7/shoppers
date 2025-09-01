@@ -1,0 +1,142 @@
+.ProductDescription {
+    background-color: var(--main-color);
+}
+.ProductDescription .main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.ProductDescription .main .image {
+    background-color: white;
+    border-bottom-right-radius: 20px;
+}
+.ProductDescription .main .description {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.ProductDescription .main .description .quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.ProductDescription .main .description .quantity .icon {
+    transition: .5s;
+    cursor: pointer;
+}
+.ProductDescription .main .description .quantity .icon:hover {
+    transform: scale(1.2);
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Img >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.ProductDescription .ProImage {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductDescription .ProImage .mainImg {
+    border: 1px solid var(--main-color);
+    border-radius: 15px;
+    padding: 15px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ProductDescription .ProImage .mainImg img {
+    width: 300px !important;
+    height: 400px !important;
+    transition: transform .1s ease;
+    transform-origin: center;
+}
+
+.ProductDescription .ProImage .mainImg:hover {
+    cursor: zoom-in;
+}
+
+.ProductDescription .ProImage .selectImg {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+.ProductDescription .ProImage .selectImg > div {
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Description >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.ProductDescription .CustomerReview {
+    color: white;
+}
+
+.ProductDescription .CustomerReview .rev {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.ProductDescription .CustomerReview .rev .star {
+    border-right: 1px solid rgba(255, 255, 255, 0.418);
+}
+
+.ProductDescription .CustomerReview .form {
+    display: none;
+}
+.ProductDescription .CustomerReview .form.active {
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.ProductDescription .CustomerReview .form > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.ProductDescription .CustomerReview .form > div label {
+    text-transform: capitalize;
+
+}
+.ProductDescription .CustomerReview .form > div textarea {
+    max-height: 100px;
+}
+
+.ProductDescription .CustomerReview .form > div input ,
+.ProductDescription .CustomerReview .form > div textarea {
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+.ProductDescription .CustomerReview .form > div input::placeholder,
+.ProductDescription .CustomerReview .form > div textarea::placeholder {
+    color: white;
+    font-size: 14px;
+}

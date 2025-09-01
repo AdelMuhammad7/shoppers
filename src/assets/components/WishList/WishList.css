@@ -1,0 +1,71 @@
+.WishList  .title{
+    color: var(--main-color);
+    background-color: #979797;
+
+}
+.WishList .body {
+    background-color: var(--main-color);
+    color: white;
+}
+.WishList .body table {
+    font-family: var(--second-font);
+    width: 100% !important;
+}
+.WishList .body table thead {
+    background: rgb(241, 241, 241);
+    color: var(--main-color);
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid white;
+}
+.WishList .body table thead tr th {
+    padding: 10px 100px;
+}
+.WishList .body table .img {
+    height: 200px;
+    width: 50px;
+}
+@media (max-width: 1020px) {
+    .WishList .body table thead tr th {
+        padding: 10px 20px;
+    }
+    .WishList .body table .img {
+        height: 170px;
+    }
+    .WishList .body table tbody button ,
+    .WishList .body table tfoot button {
+        font-size: 14px !important;
+    }
+}
+@media (max-width: 780px) {
+    .WishList .body table thead tr th {
+        padding: 10px 15px;
+    }
+    .WishList .body table .img {
+        height: 150px;
+    }
+    .WishList .body table tbody button ,
+    .WishList .body table tfoot button {
+        font-size: 14px !important;
+    }
+}
+@media (max-width: 450px) {
+    .WishList .body table thead tr th {
+        padding: 3px 5px;
+    }
+    .WishList .body table thead  {
+        font-size: 12px;
+    }
+    .WishList .body table tbody {
+        font-size: 10px;
+    }
+    .WishList .body table tbody button ,
+    .WishList .body table tfoot button {
+        font-size: 10px !important;
+    }
+    .WishList .body table .img {
+        height: 100px;
+    }
+}

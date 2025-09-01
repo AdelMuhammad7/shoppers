@@ -1,0 +1,6 @@
+.Collection{
+    background-color: var(--main-color);
+}
+.Collection .col-lg-3 {
+    cursor: pointer;
+}

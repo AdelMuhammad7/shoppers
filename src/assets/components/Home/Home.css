@@ -1,0 +1,54 @@
+header{
+    background-image: url(../../images/home-bg.png);
+    background-size: cover;
+    background-position: top;
+    height: max-content;
+    font-family: var(--second-font);
+}
+
+.korombo {
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--main-color);
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 15000;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: none;
+}
+
+.korombo div img {
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+}
+.korombo div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+.korombo div p {
+    margin: 0;
+    font-size: 12px;
+}
+.korombo div b {
+    font-size: 13px;
+}
+.korombo div span {
+    font-size: 11px;
+}
+
+.korombo i {
+    position: absolute;
+    top: -2px;
+    right: 8px;
+    cursor: pointer;
+}

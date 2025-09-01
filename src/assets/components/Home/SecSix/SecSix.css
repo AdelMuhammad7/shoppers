@@ -1,0 +1,65 @@
+.SecSix {
+    min-height: 70vh;
+    background-color: var(--main-color);
+}
+.SecSix .box ,
+.SecSix .box2 {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    align-items: flex-start;
+    color: white;
+}
+.SecSix .box img ,
+.SecSix .box2 img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   filter: brightness(70%);
+   z-index: 1;
+}
+.SecSix .box *:not(img) , 
+.SecSix .box2 *:not(img) {
+    z-index: 5;
+}
+.SecSix .box b ,
+.SecSix .box2 b  {
+    font-size: 20px;
+}
+.SecSix .box p {
+    font-size: 12px;
+    width: 50%;
+}
+.SecSix .box2 p {
+    font-size: 12px;
+}
+.SecSix .container .swwp {
+    position: relative;
+}
+.SecSix .container .swwp .left ,
+.SecSix .container .swwp .right {
+    position: absolute;
+    top: 50%;
+    color: white;
+    opacity: 0;
+    transition: .5s;
+    cursor: pointer;
+}
+.SecSix .container .swwp .left{
+    left: -20px;
+}
+.SecSix .container .swwp .right {
+    right: -20px;
+}
+.SecSix .container .swwp:hover .left ,
+.SecSix .container .swwp:hover .right {
+    opacity: 1;
+}
+
+@media (max-width: 450px) {
+  
+}

@@ -1,0 +1,41 @@
+.SecSeven{
+    padding: 10px;
+    background-color: var(--main-color);
+    color: var(--light-color);
+    font-family: var(--first-font);
+    display: flex;
+    align-items: center;
+}
+.SecSeven .container .row p {
+    font-size: 14px;
+}
+.SecSeven .container .row .sweeeper {
+    position: relative;
+}
+.SecSeven .container .row .sweeeper:hover .left ,
+.SecSeven .container .row .sweeeper:hover .right {
+    opacity: 1;
+}
+
+.SecSeven .container .row .left ,
+.SecSeven .container .row .right {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    cursor: pointer;
+    transition: .5s;
+    opacity: 0;
+}
+
+.SecSeven .container .row .left {
+    left: -20px;
+}
+.SecSeven .container .row .right {
+    right: -20px;
+}
+
+@media (max-width : 450px) {
+    .SecSeven .container .row .right {
+        right: -10px;
+    }
+}

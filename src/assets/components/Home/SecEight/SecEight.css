@@ -1,0 +1,21 @@
+.SecEight{
+    background-color: var(--main-color);
+    color: var(--light-color);
+}
+
+
+@media (max-width : 780px) {
+    .SecEight .container .row > .col-lg-4 > div {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .SecEight .container .row > .col-lg-4 > div b {
+        text-align: center !important;
+    }
+    .SecEight .container .row > .col-lg-4 > div p {
+        text-align: center !important;
+    }
+    .SecEight .container .row > .col-lg-4 > div img {
+        padding: 10px 0;
+    }
+}
