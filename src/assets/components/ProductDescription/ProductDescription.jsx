@@ -6,11 +6,10 @@ import SecEleven from "../Home/SecEleven/SecEleven.jsx";
 
 import CustomerReview from "./CustomerReview.jsx";
 
-import ProDesc from "./ProDesc.jsx";
+import ProDesc from "./ProDescription.jsx";
 import ProImage from "./ProImage.jsx";
 
 function ProductDescription() {
-
   const { product } = useContext(productContext);
 
   return (
