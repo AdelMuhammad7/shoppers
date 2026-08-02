@@ -1,14 +1,15 @@
-import { useParams } from "react-router-dom";
-import SecEleven from "../Home/SecEleven/SecEleven.jsx";
-import CustomerReview from "./CustomerReview.jsx";
-import ProDesc from "./ProDesc.jsx";
-import "./ProductDescription.css";
-import ProImage from "./ProImage.jsx";
 import { useContext } from "react";
+import "./ProductDescription.css";
+
 import { productContext } from "../../../Context/ProductContext.jsx";
+import SecEleven from "../Home/SecEleven/SecEleven.jsx";
+
+import CustomerReview from "./CustomerReview.jsx";
+
+import ProDesc from "./ProDesc.jsx";
+import ProImage from "./ProImage.jsx";
 
 function ProductDescription() {
-  const { number } = useParams();
 
   const { product } = useContext(productContext);
 
