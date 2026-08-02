@@ -4,7 +4,7 @@ import SecThree from "../Home/SecThree/SecThree"
 import CustomerReview from "./CustomerReview"
 import ProDesc from "./proDesc"
 import "./ProductDescription.css"
-import ProImage from "./ProImage"
+import ProImage from "./ProImage.jsx"
 import { useContext } from "react"
 import { productContext } from "../../../Context/ProductContext"
 
