@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import SecEleven from "../Home/SecEleven/SecEleven.jsx";
 import CustomerReview from "./CustomerReview.jsx";
-import ProDesc from "./proDesc.jsx";
+import ProDesc from "./ProDesc.jsx";
 import "./ProductDescription.css";
 import ProImage from "./ProImage.jsx";
 import { useContext } from "react";
